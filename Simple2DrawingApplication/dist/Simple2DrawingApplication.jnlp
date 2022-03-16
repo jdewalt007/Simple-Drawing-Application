@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Simple2DrawingApplication.jnlp">
+  <information>
+    <title>Simple2DrawingApplication</title>
+    <vendor>Jeremy DeWalt</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Simple2DrawingApplication.jar" size="42803" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Simple2DrawingApplication" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="simple2drawingapplication.Simple2DrawingApplication"  name="Simple2DrawingApplication" />
+  <update check="always"/>
+</jnlp>
